@@ -1,0 +1,17 @@
+{
+  "name": "cloudflare-vite-wasm",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "npm run build && vite preview",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.13.5",
+    "vite": "^7.1.7",
+    "wrangler": "^4.40.0"
+  }
+}
