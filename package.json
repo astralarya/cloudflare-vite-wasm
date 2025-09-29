@@ -13,8 +13,5 @@
     "@cloudflare/vite-plugin": "^1.13.5",
     "vite": "^7.1.7",
     "wrangler": "^4.40.0"
-  },
-  "dependencies": {
-    "canvaskit-wasm": "^0.40.0"
   }
 }
