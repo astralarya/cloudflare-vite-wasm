@@ -1,5 +1,7 @@
+import { sayFoo } from "./foo";
+
 export default {
   fetch() {
-    return new Response(`Running in ${navigator.userAgent}!`);
+    return new Response(sayFoo());
   },
 };
