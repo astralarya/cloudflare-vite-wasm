@@ -1,3 +1,3 @@
 export function sayFoo() {
-  return "sayFoo() from foo.ts";
+  return "sayFoo() from foo.web.ts";
 }
